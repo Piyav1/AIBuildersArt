@@ -151,3 +151,39 @@ class Batman:
         
     def __str__(self):
         return self.name
+
+
+class Testkrub:
+    '''
+    test = UncleEngineer()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'Uncle Engineer'
+
+    def art(self):
+        asciiart = '''
+                 /////'
+              '  # o
+              C   - |
+ ___          '  =__'        ___
+(` _ \_       |   |        _/  ')
+ \  (__\  ,---- _ |----.  /__)- |
+  \__  ( (           /  ) )  __/
+    |_X_\/ \.   #  _.|  \/_X_|
+      |  \ /(   /    /\ /  |
+       \ /  (  ,    /  \ _/
+            /______/
+           [:::::::]
+          /*%*%*%*%*\
+          >%*%#%*%*%|
+         /%*%*#*%*%*\
+        ######^###### 
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
+
+test = Testkrub()
+test.art()
