@@ -185,5 +185,3 @@ class Testkrub:
     def __str__(self):
         return self.name
 
-test = Testkrub()
-test.art()
